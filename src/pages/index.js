@@ -1,5 +1,4 @@
-import React from "react";
-
+import * as React from "react"
 <html>
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
