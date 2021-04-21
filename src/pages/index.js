@@ -1,27 +1,25 @@
-import * as React from "react"
-import { Link } from "gatsby"
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: red;
+  border-radius: 50%;
+  display: inline-block;
+}
+</style>
+</head>
+<body>
 
+<div style="text-align:center">
+  <h1>Round Dots / Circles</h1>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+  <span class="dot"></span>
+</div>
 
-import Layout from "../components/layout"
-
-
-const IndexPage = () => (
-  <Layout>
-    
-    <h1>Traffic Lights</h1>
-    
-    <div style="text-align:center">
-      <h1>Round Dots / Circles</h1>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-      <span class="dot"></span>
-    </div>
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
-  </Layout>
-)
-
-export default IndexPage
+</body>
+</html> 
